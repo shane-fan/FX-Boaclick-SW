@@ -1,5 +1,7 @@
 import java.util.*;
 
+/* Project 1: Tic Tac Toe */
+
 
 public class Main {
     static ArrayList<Integer> playerPositions = new ArrayList<Integer>();
@@ -26,7 +28,7 @@ public class Main {
             }
             placePiece(gameBoard, playerPos, "player");
             String result = checkWinner();
-            
+
 
             Random rand = new Random();
             int cpuPos = rand.nextInt(9) + 1;
@@ -136,3 +138,6 @@ public class Main {
         return "";
     }
 }
+
+//Source: https://www.youtube.com/watch?v=gQb3dE-y1S4
+/* Project Purpose: learn Java */
